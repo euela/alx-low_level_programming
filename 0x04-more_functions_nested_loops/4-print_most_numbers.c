@@ -1,3 +1,7 @@
+#include "main.h"
+
+/* display numbers from 0-9 with new line*/
+
 void print_most_numbers(void)
 {
 	int num;

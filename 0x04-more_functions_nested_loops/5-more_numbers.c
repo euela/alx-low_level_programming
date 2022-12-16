@@ -1,3 +1,7 @@
+#include <stdio.h>
+
+/*print numbers but not 2 and  4*/
+
 void more_numbers(void)
 {
 	int num, num;

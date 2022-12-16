@@ -1,4 +1,5 @@
-#include "main.h"
+#include <stdio.h>
+
 /*print a square*/
 
 void print_square(int size)

@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /* display numbers from 0-9 with new line*/
 

@@ -1,3 +1,7 @@
+#include <stdio.h>
+
+/*display diagonl elements*/
+
 void print_diagonal(int n)
 {
 	int i, j;

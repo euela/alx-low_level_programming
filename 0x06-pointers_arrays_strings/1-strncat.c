@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- *  *_strcat - string concatinatinating function
- *   *Return:dest
- *    */
+ *_strcat - string concatinatinating function
+ *Return:dest
+ */
 
 char *_strncat(char *dest, char *src, int n)
 {
 	int i;
 
-	for (count = 0:dest[count] != '\0';count++)
+	for (count = 0;dest[count] != '\0';count++)
 	{
 	}
 	i = 0;

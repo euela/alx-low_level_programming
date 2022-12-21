@@ -16,9 +16,9 @@ char *_strcat(char *dest, char *src)
 	{
 	}
 
-	for (i = 0;i<=200;i++)
+	for (i = 0;i <= 200;i++)
 	{
-		dest[count + i]=src[i];
+		dest[count + i] = src[i];
 
 			if(src[i] == '\0')
 			{
@@ -27,3 +27,4 @@ char *_strcat(char *dest, char *src)
 			}
 	}
 	return (dest);
+}

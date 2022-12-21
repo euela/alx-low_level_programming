@@ -8,6 +8,7 @@
 char *_strncat(char *dest, char *src, int n)
 {
 	int i;
+	int count;
 
 	for (count = 0;dest[count] != '\0';count++)
 	{

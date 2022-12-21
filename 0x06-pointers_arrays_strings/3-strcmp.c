@@ -13,7 +13,7 @@ int _strcmp(char *s1, char *s2)
 	val = 0;
 	if(*s1 == *s2)
 	{
-		for (i = 0;s[i] != '\0';i++)
+		for (i = 0;*s1 != '\0';i++)
 		{
 			if(*s1 != *s2)
 			{

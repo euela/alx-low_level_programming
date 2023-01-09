@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+#include <string.h>
 /**
  * str_concat - concatenates two array of chars.
  * @s1: array of chars.

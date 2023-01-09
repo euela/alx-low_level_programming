@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /**
  * free_grid - free's a grid of memmory
  * @grid: the address of the two dimensional grid
@@ -14,7 +15,7 @@ void free_grid(int **grid, int height)
     {
       i = height;
 
-      for(;i; i--)
+      for(;i>=; i--)
 	{
 	  free(grid[i]);
 	}

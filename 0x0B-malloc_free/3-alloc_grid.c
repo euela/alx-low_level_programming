@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /**
  * alloc_grid - returns 2 gdimensional array of integers.
  * @width: width of the grid

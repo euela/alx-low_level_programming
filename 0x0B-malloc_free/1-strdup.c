@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+#include <string.h>
 /**
  * _strdup - duplicates an array of chars.
  * @str: array of chars.
@@ -21,5 +22,5 @@ char *_strdup(char *str)
   for(i = 0;i <= len; i++)
     dup[i] = str[i];
 
-  return (dup) ;
+  return (dup);
 }

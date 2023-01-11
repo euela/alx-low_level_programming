@@ -19,7 +19,7 @@ int main(int argc,char *argv[])
 
   val1 = atoi(argv[1]);
   val2 = atoi(argv[2]);
-  mul = i * j;
+  mul = val1 * val2;
 
   printf("%d\n", mul);
 

@@ -1,4 +1,4 @@
-#include <stdio.h>
+include <stdio.h>
 #include <stdlib.h>
 /**
  *main - gives number of argumnets
@@ -8,7 +8,7 @@
  *
  *RETURN: zero
  */
-int main(int argc,char *argv[])
+int main(int argc,char __attribute__((__unused__)) *argv[])
 {
   printf("%d\n", argc - 1);
   
